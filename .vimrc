@@ -18,8 +18,7 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'L9'
 Plugin 'scrooloose/nerdtree'
 Plugin 'Lokaltog/vim-powerline'
-Bundle 'Valloric/YouCompleteMe'
-Plugin 'python-mode/python-mode'
+Plugin 'Valloric/YouCompleteMe'
 call vundle#end()
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -91,3 +90,4 @@ set laststatus=2
 let g:Powerline_symbols='unicode'
 
 
+let g:ycm_global_ycm_extra_conf='~/.vim/.ycm_extra_conf.py'
